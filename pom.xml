@@ -28,7 +28,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.0</version>
+    <version>4.51</version>
     <relativePath />
   </parent>
   <groupId>io.jenkins.plugins</groupId>
@@ -38,8 +38,7 @@
   <properties>
     <revision>1.4</revision>
     <changelist>-SNAPSHOT</changelist>
-    <jenkins.version>2.164.3</jenkins.version>
-    <java.level>8</java.level>
+    <jenkins.version>2.346.3</jenkins.version>
   </properties>
   <name>Extended Security Settings Plugin</name>
   <description>Provides extra security options for Jenkins.</description>
@@ -51,7 +50,7 @@
   </licenses>
   <url>https://github.com/jenkinsci/extended-security-settings-plugin</url>
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/extended-security-settings-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/extended-security-settings-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/extended-security-settings-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/extended-security-settings-plugin</url>
     <tag>HEAD</tag>
@@ -68,13 +67,4 @@
       <url>https://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
-  <developers>
-    <developer>
-      <id>jvz</id>
-      <name>Matt Sicker</name>
-      <url>https://github.com/jvz</url>
-      <organization>CloudBees</organization>
-      <organizationUrl>https://www.cloudbees.com/</organizationUrl>
-    </developer>
-  </developers>
 </project>
